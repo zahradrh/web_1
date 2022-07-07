@@ -1,0 +1,100 @@
+*{
+               margin: 0px;
+               padding: 0px;
+               box-sizing: border-box;
+}
+body{
+               font-family: IRANSansX;
+}
+.navbar .container{
+               
+               height: 80px;
+               width: 100%;
+               background-color: ;
+               position: relative;
+               background: #089999;
+               box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+               
+              
+}
+.navbar .right{
+               width: 40%;
+               height: 100%;
+               position: absolute;
+               right: 0px;
+               
+               
+               
+               
+               
+
+}
+.navbar .left{
+               width: 50%;
+               height: 100%;
+               position: absolute;
+              left: 0px;
+               
+               display: inline-block;
+
+}
+.navbar .left ul{
+             position: absolute;
+             left: 0px;
+             margin-left: 220px;
+             margin-top: 28px;
+              
+}
+.navbar .left li{
+               display: inline;
+               font-style: normal;
+               font-weight: 500;
+               font-size: 14px;
+               line-height: 24px;                           
+               
+}
+.navbar .left a{
+               color: #ffff;
+               text-decoration: none;
+               margin-left: 24px;
+}
+/* .navbar .right .logo-place{
+               position: absolute;
+               width: 48px;
+               height: 100%;
+               background-color: aqua;
+               padding-right: 20px;
+} */
+.navbar .right .logo{
+               
+               background: url(./img/scanning.png);
+               width: 48px;
+               height: 48px;
+              margin-top: 18px;
+              margin-right: 204px ;
+}
+
+.section{
+               
+}
+.section-1 header{
+               position: relative;
+               margin-top: 88px;
+               height: 944px;
+               width: 100%;
+               text-align: center;
+}
+.section-1 head .title{
+               
+               position: absolute;
+               width: 382px;
+               height: 88px;
+               left: 529px;
+               font-style: normal;
+               font-weight: 700;
+               font-size: 64px;
+               line-height: 88px;             
+}
+
+
+

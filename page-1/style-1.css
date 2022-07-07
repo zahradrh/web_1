@@ -1,0 +1,102 @@
+*{
+               margin: 0px;
+               padding: 0px;
+               box-sizing: border-box;
+}
+body{
+               font-family:IRANSansX ;
+               
+               
+
+}
+/* first section */
+#sec-1{
+               position: relative;
+               width: 1440px;
+               height: 800px;
+                background:  #FFFFFF;
+               
+               
+               
+}
+/* title */
+#sec-1 .right .title{
+               position: absolute;
+               width: 217px;
+               height: 288px;
+               left: 1115px;
+               top: 183px;
+               color: #000000;
+
+}
+#sec-1 .right .title h1{
+               font-style: normal;
+               font-weight: 800;
+               font-size: 50px;
+               line-height: 96px;
+               text-align: right;
+}
+/* description */
+#sec-1 .right .description{
+               position: absolute;
+               width: 600px;
+               height: 84px;
+               left: 732px;
+               top: 511px;
+
+}
+#sec-1 .right .description p{
+               font-style: normal;
+               font-weight: 500;
+               font-size: 16px;
+               line-height:175%;
+
+
+               text-align: right;
+               color: #757575;
+}
+/* button */
+#sec-1 .right .btn{
+               display: flex;
+               flex-direction:column;
+               justify-content: center;
+               align-items: center;
+               padding: 16px 29px;
+               gap: 10px;
+               position: absolute;
+               width: 184px;
+               height: 56px;
+               left: 1148px;
+               top:627px;
+
+               background: #5D63D1;
+               border-radius: 0px;
+               color:  #F0F0F0;
+               font-style: normal;
+               font-weight: 400;
+               font-size: 16px;
+               line-height: 24px;
+               box-shadow: none;
+               border-style: none;
+               
+
+}
+/* image */
+#sec-1 .left{
+               position: absolute;
+               width: 392px;
+               height: 465px;
+               left: 212px;
+               top: 207px;
+               background-repeat: no-repeat;
+               background: url(./img/pngwing\ 1.png);
+               background-size: cover;
+               background-repeat: no-repeat;
+               border-radius: 16px;
+}
+
+
+
+
+
+

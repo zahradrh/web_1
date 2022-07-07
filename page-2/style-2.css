@@ -1,0 +1,140 @@
+*{
+               margin: 0px;
+               padding: 0px;
+               box-sizing: border-box;
+}
+body{
+               font-family: IRANSans;
+               width: 1440px;
+   
+}
+
+/* second section */
+#sec-2{
+               
+               position: relative;
+               
+               width: 1440px;
+               height: 800px;
+               
+}
+#sec-2  .front-pic{
+               position: absolute;
+               width: 231.66px;
+               height: 165.68px;
+               right:108px ;
+               top: 130px;
+               z-index: 1;
+               background: url(img/image\ 2.png);
+               background-size: cover;
+               
+               filter: drop-shadow(2px 11px 22px rgba(135, 128, 216, 0.25));
+}
+#sec-2  .under-pic{
+               position: absolute;
+               width: 549px;
+               height: 401px;
+               right: 108px;
+               top: 192px;
+               z-index: 0;
+               background: url(img/image\ 1.png);
+               background-size: cover;
+}
+#sec-2 .left .title{
+               position: absolute;
+               left: 580px;
+               top: 168px;
+               text-align: right;
+               font-style: normal;
+               font-weight: 500;
+               font-size: 16px;
+               line-height: 20px;
+               color: #D68B46;
+}
+#sec-2 .left .title-2{
+               position: absolute;
+               width: 600px;
+               height: 144px;
+               left: 90px;
+               top: 200px;
+               
+
+}
+#sec-2 .left h1{
+               font-style: normal;
+               font-weight: 250px;
+               font-size: 40px;
+               line-height: 72px;
+               text-align: right;
+               color: #000000;
+}
+#sec-2 .left .description{
+               position: absolute;
+               width: 600px;
+               height: 110px;
+               left: 90px;
+               top: 380px;
+
+}
+#sec-2 .left .description p{
+               font-style: normal;
+               font-weight: 400;
+               font-size: 18px;
+               line-height: 27px;
+               text-align: right;
+
+               color: #757575;
+
+}
+.detail{
+               
+               position: absolute;
+               top: 520px;
+               left: 430px;
+               display: flex;
+              justify-content: end;
+              align-items: center;
+               
+}
+.detail .dtl{
+               margin: 10px;
+}
+
+.detail img{
+               width: 80px;
+               height: 80px;
+               border-radius: 50%;
+
+}
+.detail .dtl h2{
+               font-weight: 500;
+               font-size: 16px;
+               color: #5A5A5A;
+}
+.detail .dtl h3{
+               font-style: normal;
+               font-weight: 400;
+               font-size: 14px;
+               color: #5A5A5A;
+}
+.trans{
+               
+               position: absolute;
+               display: flex;
+               justify-content: center;
+               padding-top: 5px;
+               width: 200px;
+               height: 50px;
+               left: 550px;
+               top:630px;              
+}
+.trans span{
+               background-color: #C4C4C4;
+               width: 16px;
+               height: 16px;
+               border-radius: 50%;
+               margin: 10px;              
+}
+#third{
+               background-color: #4867B7;
+}
